@@ -25,6 +25,8 @@ const Main = () => {
     setAlignment(newAlignment);
   };
 
+
+
   return (
     <Container sx={{ mt: 9 }}>
       <Stack
@@ -81,7 +83,7 @@ const Main = () => {
         
         {Myproducts.map((item) => {
           return (
-            <Card key={item} sx={{ maxWidth: 345, mt: 6 }}>
+            <Card key={item} sx={{ maxWidth: 345, mt: 6, ":hover .MuiCardMedia-root":{scale:"1.1"}   }}>
               <CardMedia
                 sx={{ height: 240 }}
                 image={item.link}
@@ -107,7 +109,7 @@ const Main = () => {
                 </Typography>
               </CardContent>
         
-              <CardActions sx={{ justifyContent: "space-between" }}>
+              <CardActions    sx={{ justifyContent: "space-between" }}>
                 <Button sx={{ textTransform: "capitalize" }} size="small">
                   <AddShoppingCartOutlinedIcon sx={{ mr: 1 }} fontSize="small" />
                   Add to cart
@@ -118,6 +120,10 @@ const Main = () => {
           );
         })}
       </Stack >
+
+
+
+    
     
     </Container>
   );

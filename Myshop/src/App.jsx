@@ -6,6 +6,7 @@ import { ColorModeContext, useMode } from "./theme";
  import Hero from "./components/hero/hero";
 import IconSection from "./components/hero/IconSection";
 import Main from "./components/main/main.jsx";
+import Footer from "./components/footer/footer.jsx";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
          <Hero/> 
        <IconSection/> 
        <Main/>
+       <Footer/>
       </ThemeProvider>
     </ColorModeContext.Provider>
   );
