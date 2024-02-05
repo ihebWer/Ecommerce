@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+*
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.border
+{
+  border: 2px solid royalblue;
+}
+
+
+.Mybutton
+{
+  border-radius: 5px !important;
+  border: 1px solid #888 !important;
+
+  text-transform: capitalize !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+
+  font-size: 16px !important;
+}
